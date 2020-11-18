@@ -22,3 +22,8 @@ The repository contains interactive python scripts that solves a couple of probl
  
 # Inverse of a 3 by 3 Matrix.py
 >If a given 3 by 3 matrix is given as Matrix A, this program calculates and returns the Inverse of the matrix given as Matrix A ^(-1) 
+
+
+# Quadraric Equation.py
+>The program being run on this script takes input from the user and returns the roots of a quadratic equation given that b^2 > 4ac.
+
