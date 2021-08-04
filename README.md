@@ -6,9 +6,6 @@ The repository contains interactive python scripts that solves a couple of probl
 >This is a program that takes input from users - Date of Birth, and using the data and using the datetime function is able to return the number of days the users has spent on the planet. 
 >The inputs for the date of birth given in yyyy-mm-dd format.
 
-# Four Variable Simultaneous Equation Calculator.cpp
->This C-Plus-Plus program can provide solutions to four variable simultaneous equations. 
->The program uses the determinants methods to calculate all four variables
 
 # Delta-Wye Transforms.py
 >This is a program capable of making Delta-Wye/Delta-Star/Node-Mesh transformations.
