@@ -1,4 +1,4 @@
-#This program prints the Inverse of a three by three matrix
+#This program prints the Inverse of a 3 by 3 matrix
 
 print("If the three by three matrix A is given in the form shown below, Input your values for the respective variables ")
 print("This program will return the inverse of the three by three matrix")
