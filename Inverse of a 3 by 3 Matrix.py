@@ -2,9 +2,10 @@
 
 print("If the three by three matrix A is given in the form shown below, Input your values for the respective variables ")
 print("This program will return the inverse of the three by three matrix")
-print("[a,b,c]")
-print("[d,e,f]")
-print("[g,h,i]")
+print("[a, b, c]")
+print("[d, e, f]")
+print("[g, h, i]")
+# To let the user understand what and how the program works
 a = float(input("Input the value of a: "))
 b = float(input("Input the value of b: "))
 c = float(input("Input the value of c: "))
