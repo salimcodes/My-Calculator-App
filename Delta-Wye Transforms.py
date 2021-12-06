@@ -1,9 +1,10 @@
 # Python project that calculates Delta - Wye and Wye - Delta Transforms
-
+#Using the try-except method to make up for the wrong value error
 try:
     print("Do you want to perform a Delta-Wye Transform ? (Yes/No) ")
     operation = input()
     if operation.lower() == "yes":
+        # Getting input from user for Delta-Wye transform 
         R12 = float(input("WHAT IS THE VALUE OF RESISTANCE, R12 ? "))
         R13 = float(input("WHAT IS THE VALUE OF RESISTANCE, R13 ? "))
         R23 = float(input("WHAT IS THE VALUE OF RESISTANCE, R23 ? "))
@@ -11,6 +12,7 @@ try:
         r1 = (R13 * R12)/S
         r2 = (R23 * R12)/S
         r3 = (R13 * R23)/S
+        # Returning the output for the Wye part of the resistance
         print("Resistance R1 is given as " + str(r1))
         print("Resistance R2 is given as " + str(r2))
         print("Resistance R3 is given as " + str(r3))
@@ -18,6 +20,7 @@ try:
         print("I would take it that you want to perform a Wye-Delta Transform ? (Yes/No ")
         operation2 = input()
         if operation2.lower() == "yes":
+            # Getting the input from users
             R1 = float(input("WHAT IS THE VALUE OF RESISTANCE, R1 ? "))
             R2 = float(input("WHAT IS THE VALUE OF RESISTANCE, R2 ? "))
             R3 = float(input("WHAT IS THE VALUE OF RESISTANCE, R3 ? "))
